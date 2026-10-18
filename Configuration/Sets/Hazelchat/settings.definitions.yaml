@@ -1,0 +1,12 @@
+categories:
+  hazelchat: ~
+
+settings:
+  hazelchat.installationCode:
+    type: text
+    default: ''
+    category: hazelchat
+  hazelchat.waitForConsent:
+    type: bool
+    default: false
+    category: hazelchat

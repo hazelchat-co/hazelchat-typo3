@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:hazelchat/Configuration/Sets/Hazelchat/labels.xlf" date="2026-10-17T00:00:00Z" product-name="hazelchat">
+		<header/>
+		<body>
+			<trans-unit id="label">
+				<source>Hazelchat</source>
+				<target>Hazelchat</target>
+			</trans-unit>
+			<trans-unit id="categories.hazelchat">
+				<source>Hazelchat</source>
+				<target>Hazelchat</target>
+			</trans-unit>
+			<trans-unit id="settings.hazelchat.installationCode">
+				<source>Installation code</source>
+				<target>Installationscode</target>
+			</trans-unit>
+			<trans-unit id="settings.description.hazelchat.installationCode">
+				<source>Paste the installation code from Hazelchat (or just its key); the chat then loads from app.hazelchat.co, and Hazelchat processes what visitors type into it.</source>
+				<target>Fügen Sie den Installationscode aus Hazelchat ein (oder nur seinen Schlüssel); der Chat lädt dann von app.hazelchat.co, und Hazelchat verarbeitet, was Besucher darin eingeben.</target>
+			</trans-unit>
+			<trans-unit id="settings.hazelchat.waitForConsent">
+				<source>Wait for my consent manager</source>
+				<target>Auf meinen Consent-Manager warten</target>
+			</trans-unit>
+			<trans-unit id="settings.description.hazelchat.waitForConsent">
+				<source>The chat starts only after your consent manager allows it.</source>
+				<target>Der Chat startet erst, wenn Ihr Consent-Manager ihn erlaubt.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

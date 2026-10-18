@@ -1,0 +1,37 @@
+{
+	"name": "hazelchat/typo3",
+	"type": "typo3-cms-extension",
+	"description": "Adds the Hazelchat AI chat agent to TYPO3 sites from one pasted installation code. It answers visitors from the pages you approve and passes on their enquiries. Needs a Hazelchat account; the Free plan covers one website.",
+	"keywords": ["chat", "ai", "chat agent", "chatbot", "enquiries", "lead capture", "consent"],
+	"homepage": "https://hazelchat.co/integrations/typo3/",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Hazelchat",
+			"email": "hello@hazelchat.co",
+			"homepage": "https://hazelchat.co",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "hello@hazelchat.co",
+		"docs": "https://hazelchat.co/integrations/typo3/",
+		"issues": "https://github.com/hazelchat-co/hazelchat-typo3/issues",
+		"source": "https://github.com/hazelchat-co/hazelchat-typo3"
+	},
+	"require": {
+		"php": "^8.2",
+		"typo3/cms-core": "^13.4 || ^14.3",
+		"typo3/cms-frontend": "^13.4 || ^14.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hazelchat\\Typo3\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "hazelchat"
+		}
+	}
+}

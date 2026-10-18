@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:hazelchat/Configuration/Sets/Hazelchat/labels.xlf" date="2026-10-17T00:00:00Z" product-name="hazelchat">
+		<header/>
+		<body>
+			<trans-unit id="label">
+				<source>Hazelchat</source>
+			</trans-unit>
+			<trans-unit id="categories.hazelchat">
+				<source>Hazelchat</source>
+			</trans-unit>
+			<trans-unit id="settings.hazelchat.installationCode">
+				<source>Installation code</source>
+			</trans-unit>
+			<trans-unit id="settings.description.hazelchat.installationCode">
+				<source>Paste the installation code from Hazelchat (or just its key); the chat then loads from app.hazelchat.co, and Hazelchat processes what visitors type into it.</source>
+			</trans-unit>
+			<trans-unit id="settings.hazelchat.waitForConsent">
+				<source>Wait for my consent manager</source>
+			</trans-unit>
+			<trans-unit id="settings.description.hazelchat.waitForConsent">
+				<source>The chat starts only after your consent manager allows it.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
